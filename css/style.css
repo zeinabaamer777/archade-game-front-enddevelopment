@@ -1,0 +1,28 @@
+@font-face{src:url(../fonts/RobotoLight.ttf);font-family: RobotoLight;font-weight: 2000; font-size:100;} 
+body {
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: RobotoLight;
+}
+
+#banner {
+	width: 15%;
+	max-width: 15%;
+	margin: 1% auto;
+	display: flex;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+#banner .score{
+	color: #5a71d9;
+}
+#banner .lives{
+	color: #5fc148;
+	
+}
+#banner .sc{margin-left: 50px;}
+#banner span{color:#0076a3;}
+
+div:nth-child(2) {
+	flex-grow: 1;
+}
